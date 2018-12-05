@@ -18,9 +18,9 @@ public class DiceRunner{
 
 		//Test 2
 
-			//for(int i = 0; i < DiceHolder.diceHolder(); i++){
-			//	diceHolder.add(
-			//}
+			for(int i = 0; i < DiceHolder.addDie(); i++){
+				addDie.add(
+			}
 
 
 
