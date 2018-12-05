@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 
 public class diceHolder{
-	private ArrayList diceCup;
+	private ArrayList <Dice> diceCup;
 
 	public diceHolder(){
 		diceCup = new ArrayList <>();
