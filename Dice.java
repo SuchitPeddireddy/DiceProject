@@ -19,9 +19,7 @@ public class Dice{
 
 	public void roll(){
 		int rand = (int)(Math.random()*6)+1;
-
 		getValue = rand;
-
 	}
 
 	public String toString(){
