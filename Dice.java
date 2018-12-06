@@ -1,3 +1,5 @@
+//Suchit Peddireddy
+
 public class Dice{
 
 	private int getValue;
