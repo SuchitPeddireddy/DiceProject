@@ -27,10 +27,4 @@ public class Dice{
 	public String toString(){
 		return "Number of sides : " + sides + ", Value : " + getValue;
 	}
-
-
-
-
-
-
 }
