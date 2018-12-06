@@ -18,8 +18,8 @@ public class DiceRunner{
 
 		//Test 2
 
-			for(int i = 0; i < DiceHolder.addDie(); i++){
-				addDie.add(
+			for(int i = 0; i < diceHolder.addDie(); i++){
+				addDie
 			}
 
 
