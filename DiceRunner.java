@@ -34,9 +34,5 @@ public class DiceRunner{
 			}
 				holder.shake();
 				System.out.println("Dice Holder : \n" + holder);
-
-
-
-
 	}
 }
