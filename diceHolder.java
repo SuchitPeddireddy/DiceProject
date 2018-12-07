@@ -24,11 +24,12 @@ public class diceHolder{
 		}
 	} //shake
 
-	private String a;
 	public String toString(){
+		String other = "";
 		for(int b = 0; b < diceCup.size(); b++){
-			a += diceCup.get(b) + "\n";
+			other += diceCup.get(b).toString() + "\n";
 		}
-		return a;
+		return other;
+
 	} //toString
 }
