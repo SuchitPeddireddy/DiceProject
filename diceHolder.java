@@ -25,9 +25,10 @@ public class diceHolder{
 	} //shake
 
 	public String toString(){
+		String other = "";
 		for(int b = 0; b < diceCup.size(); b++){
-			return diceCup.get(b).toString() + "\n";
-
+			other += diceCup.get(b).toString() + "\n";
 		}
+		return other;
 	} //toString
 }
