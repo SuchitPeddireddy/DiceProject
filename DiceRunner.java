@@ -18,7 +18,21 @@ public class DiceRunner{
 
 		//Test 2
 
+			boolean b = true;
+			Dice dice = new Dice();
+			diceHolder holder = new diceHolder();
 
+			while(b == true){
+				dice = new Dice();
+
+				int value = holder.addDie(dice);
+
+				if(value == -1){
+					b = false;
+					holder.shake();
+					System.out.println("Dice Holder : \n" + holder);
+				}
+			}
 
 
 
