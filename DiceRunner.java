@@ -17,26 +17,23 @@ public class DiceRunner{
 			}
 
 		//Test 2
+			System.out.println("\nTest 2 : \n");
 
 			boolean b = true;
-			//Dice dice = new Dice();
 			diceHolder holder = new diceHolder();
 
 			while(b == true){
-				//dice = new Dice();
-
 				int value = holder.addDie(new Dice((int)(Math.random()*17)+4));
 
 				if(value == -1){
 					b = false;
 					holder.shake();
+					break;
 				}
 				System.out.println("Dice Holder : \n" + holder);
+			}
 				holder.shake();
 				System.out.println("Dice Holder : \n" + holder);
-
-			}
-
 
 
 
