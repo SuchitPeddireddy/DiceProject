@@ -25,7 +25,7 @@ public class DiceRunner{
 			while(b == true){
 				//dice = new Dice();
 
-				int value = holder.addDie(new Dice((int)(Math.random()*20)+1));
+				int value = holder.addDie(new Dice((int)(Math.random()*17)+4));
 
 				if(value == -1){
 					b = false;
