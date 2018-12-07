@@ -1,3 +1,4 @@
+//Suchit Peddireddy
 public class Dice{
 
 	private int getValue;
@@ -25,10 +26,4 @@ public class Dice{
 	public String toString(){
 		return "Number of sides : " + sides + ", Value : " + getValue;
 	}
-
-
-
-
-
-
 }
