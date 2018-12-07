@@ -30,8 +30,11 @@ public class DiceRunner{
 				if(value == -1){
 					b = false;
 					holder.shake();
-					System.out.println("Dice Holder : \n" + holder);
 				}
+				System.out.println("Dice Holder : \n" + holder);
+				holder.shake();
+				System.out.println("Dice Holder : \n" + holder);
+
 			}
 
 
