@@ -33,6 +33,6 @@ public class DiceRunner{
 				System.out.println("Dice Holder : \n" + holder);
 			}
 				holder.shake();
-				System.out.println("Dice Holder : \n" + holder);
+				System.out.println("\n\nDice Holder after shaking: \n" + holder);
 	}
 }
