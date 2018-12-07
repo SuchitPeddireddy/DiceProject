@@ -19,13 +19,13 @@ public class DiceRunner{
 		//Test 2
 
 			boolean b = true;
-			Dice dice = new Dice();
+			//Dice dice = new Dice();
 			diceHolder holder = new diceHolder();
 
 			while(b == true){
-				dice = new Dice();
+				//dice = new Dice();
 
-				int value = holder.addDie(dice);
+				int value = holder.addDie(new Dice((int)(Math.random()*20)+1));
 
 				if(value == -1){
 					b = false;
